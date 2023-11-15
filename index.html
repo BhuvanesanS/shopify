@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKV Technologies Shopify</title>
+
+    <link rel="icon" href="./Images/download__12_-removebg-preview.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@300;400&family=Roboto+Slab:wght@500&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./CSS/style.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script> -->
+
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+
+
+
+    <style>
+       #develop{
+    background-color:  rgb(123, 162, 219);
+    cursor: pointer;
+}
+#develop:hover{
+    background-color: rgb(226, 10, 230);
+    cursor: pointer;
+}
+
+
+
+.sticky-icon  {
+	z-index:1;
+	position:fixed;
+	top:65%;
+	right:0%;
+	width:220px;
+	display:flex;
+	flex-direction:column;}  
+.sticky-icon a  {
+	transform:translate(160px,0px);
+	border-radius:50px 0px 0px 50px;
+	text-align:left;
+	margin:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px;
+	font-size:22px;
+	font-family:'Oswald', sans-serif;
+	transition:all 0.8s;}
+.sticky-icon a:hover  {
+	color:#FFF;
+	transform:translate(0px,0px);}	
+.sticky-icon a:hover i  {
+	transform:rotate(360deg);}
+/*.search_icon a:hover i  {
+	transform:rotate(360deg);}*/
+/* .Facebook  {
+	background-color:#2C80D3;
+	color:#FFF;}
+	
+.Youtube  {
+	background-color:#fa0910;
+	color:#FFF;}
+	
+.Twitter  {
+	background-color:#53c5ff;
+	color:#FFF;} */
+	
+.WhatsApp {
+	background-color:#7596ce;;
+	color:#FFF;}
+	
+/* .Google  {
+	background-color:#d34836;
+	color:#FFF;}						
+.sticky-icon a i {
+	background-color:#FFF;
+	height:40px;
+	width:40px;
+	color:#000;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	margin-right:20px;
+	transition:all 0.5s;}
+.sticky-icon a i.fa-facebook-f  {
+	background-color:#FFF;
+	color:#2C80D3;}
+	
+.sticky-icon a i.fa-google-plus-g  {
+	background-color:#FFF;
+	color:#d34836;} */
+	
+ .sticky-icon a i.fa-Whatsapp  {
+	background-color:#FFF;
+	color:#7596ce;
+}
+	
+/* .sticky-icon a i.fa-youtube  {
+	background-color:#FFF;
+	color:#fa0910;}
+	
+.sticky-icon a i.fa-twitter  {
+	background-color:#FFF;
+	color:#53c5ff;}
+.fas fa-shopping-cart  {
+	background-color:#FFF;}	 */ 
+/* #myBtn {
+	height:50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  text-align:center;
+  padding:10px;
+  text-align:center;
+	line-height:40px;
+  border: none;
+  outline: none;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+} */
+.fa-arrow-circle-up  {
+	font-size:30px;}
+
+#myBtn:hover {
+  background-color: #555;
+}			
+    </style>
+   
+  </head>
+  <body>
+    <!-- ----------------- Banner start----------------- -->
+    <div class="picture">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12" data-aos="zoom-up">
+            <img
+              src="./Images/New Project (83) (1).png"
+               class="w-100" height="500"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------Banner End---------------------- -->
+
+    <!-- ---------------------------Quote start------------------- -->
+    <div class="quote">
+      <div class="container">
+        <div class="row mt-3 p-3">
+          <div class="col-lg-6 justify-content-between" data-aos="slide-up" >
+            <a href="tel:9080777754" type="tel"  class="nav-link text-danger"
+              ><span class="text-dark">Call Us:</span> 9080777754<span
+                class="text-dark  text-center"
+              >
+                or fill out Request a quote form and <br />
+                we’ll contact you</span
+              >
+            </a>
+          </div>
+          <div class="col-lg-6 mt-3" style="padding-left: 50px" data-aos="slide-up">
+            <button
+              type="button"
+              class="btn btn-danger"
+              style="border-radius: 25px" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            >
+              Request Quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Request A Quote Shopify</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputName1" required>   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="exampleInputPhoneNumber"  required>   
+          </div>
+          <!-- <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Country</label>
+            <input type="text" class="form-control" id="exampleInputPhoneNumber">   
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Country</label>
+            <input type="text" class="form-control" id="exampleInputPhoneNumber">   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service Category</label>
+           
+            <select name="option" id="exampleInputEmail1" class="form-select">
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="Shopify Web Development">Shopify Web Development</option>
+              <option value="Grapic Designing">Grapic Designing</option>
+              <option value="Grapic Designing">Advertising Optimization</option>
+              <option value="Grapic Designing">Social Media Marketing</option>
+            </select>  
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Description</label>
+            <textarea type="text" class="form-control" id="exampleInputPhoneNumber"> </textarea>
+            <!-- <textarea name="Description" id="#" cols="30" rows="10"></textarea>    -->
+          </div>
+
+          <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sumbit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- ---------------------------Quote end------------------- -->
+
+    <!-- ------------------------ Column start----------------------- -->
+    <!-- <div class="container-fluid">
+      <div class="row">
+         <img src="/Images/blue_png.png" class="w-100" alt="" />
+
+        <div class="row bg-warning">
+          <div class="col">
+            <img
+              src="./Images/825500.png"
+              style="height: 100px; width: 100px"
+              class="mt-2"
+              alt=""
+            />
+            <strong class="p-5">Shopify Partner</strong>
+          </div>
+
+          <div class="col">
+            <div class="mt-3 p-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <br />
+              <strong class="p-5">4.5</strong>
+            </div>
+
+            <strong class="mt-2">Rated 4.5 Stars On Shopify</strong>
+          </div>
+
+          <div class="col">col</div>
+          <div class="col">col</div>
+        </div>
+      </div>
+    </div>  -->
+
+    <div class="container-fluid" style="background-color: #7596ce;" data-aos="slide-up">
+      <div class="row">
+        <div class="col-lg-3">
+          <img
+            src="./Images/825500.png"
+            class="mt-2"
+            style="height: 100px; width: 100px"
+            alt=""
+          />
+          <span style="font-size: 25px" class="p-3 text-white">SHOPIFY PARTNER</span>
+        </div>
+
+        <div class="col-lg-3 mt-4 justify-content-between">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="p-2 text-white">Rated 4.5 Stars On Shopify</span>
+          <strong>
+            <br />
+            4.5</strong
+          >
+        </div>
+
+        <div class="col-lg-3">
+          <img
+            src="./Images/universal.png"
+            style="height: 100px; width: 100px"
+            class="mt-2"
+            alt=""
+          />
+          <strong class="p-2 text-white">UNDER TOP 25 EXPERTS</strong>
+        </div>
+
+        <div class="col-lg-3">
+          <img
+            src="./Images/istockphoto-843969550-612x612-removebg-preview.png"
+            style="height: 100px; width: 100px"
+            alt=""
+            class="mt-3"
+          />
+          <strong>UNDER TOP 5 INDIA REGION</str>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ Column End----------------------- -->
+
+
+    <div class="container" data-aos="slide-up">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-5">
+                <h5 class="mt-5 p-2">SHOPIFY STORE FEATURES</h5>
+                    <h4 class="mt-3 p-2">Personalized service tailored to customer needs.</h4>
+                    <h6 class="mt-2 p-2">Creating unique designs that match the brand image and cater to the target audience</h6>
+            </div>
+            <div class="col-lg-3 border mt-5 ">
+                <h5 class=" p-3">Starts From <span class="px-5">₹25k</span></h5>
+                <p>We have a comprehensive range of processes that we follow to build your E-commerce store from scratch</p><hr>
+                <li style="list-style-type: none;">
+                <i class="fa-solid fa-check px-3"   style="color: #dd2767;"></i>
+                Customized design templates
+                </li>
+
+                <li style="list-style-type: none;">
+                    <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                    Responsive design
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                        Product catalog management
+                        </li>
+                        <li style="list-style-type: none;">
+                            <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                            User-friendly navigation
+                            </li>
+                            <li style="list-style-type: none;">
+                                <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                Payment gateway guidance
+                                </li>
+                                <li style="list-style-type: none;">
+                                    <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                    Shipping and tax configuration
+                                    </li>
+                                    <li style="list-style-type: none;">
+                                        <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                        Doman integration
+                                        </li>
+                                        <li style="list-style-type: none;">
+                                            <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                            Newsletter subscription
+                                            </li>
+                                            <li style="list-style-type: none;">
+                                                <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                Analytics and reporting
+                                                </li>
+                                                <li style="list-style-type: none;">
+                                                    <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                    Multi-language support
+                                                    </li>
+                                                    <li style="list-style-type: none;">
+                                                        <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                        Complete Website Testing
+                                                        </li>                      
+                                                        <li style="list-style-type: none;">
+                                                            <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                            Third-party integrations
+                                                            </li> 
+                                                            <li style="list-style-type: none;">
+                                                                <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                                End to End solution
+                                                                </li> 
+
+                                                                <li style="list-style-type: none;">
+                                                                    <i class="fa-solid fa-check px-3 mt-3"   style="color: #dd2767;"></i>
+                                                                    Ongoing maintenance and support (quarterly)
+                                                                    </li> 
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- -----------------------------Business Start------------------ -->
+
+    <div class="container-fluid mt-5" data-aos="slide-up" >
+        <div class="row">
+            <div class="col-lg-12" style="height: auto; background-color: rgb(178 215 234)">
+                 <h4 style="text-align: center;" class="mt-4 pb-4"> See how we've helped businesses like yours succeed with our <br> Shopify design and development services.</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------Business End------------------ -->
+
+    <!-- -------------------------Pagination Start-------------------- -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="slide-up">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/befor_after_banner -1-.jpg" class="d-block w-100 bg-dark" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/befor_after_banner.jpg" class="d-block w-100" alt="...">
+    
+        </div>
+          <div class="carousel-item">
+            <img src="./Images/befor_after_banner1-1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button> 
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> 
+      </div>
+    <!-- -----------------------------Pagination End----------------------------- -->
+
+
+
+    <!-- ------------------------------------SERVICES START----------------------------------- -->.
+
+<h4 class="d-flex justify-content-center mt-5" data-aos="slide-up">Design, Develop and Succeed with Our Shopify Services</h4>
+  
+    <div class="container mt-5" data-aos="slide-up">
+        <div class="row">
+            <div class="col-lg-4"  data-aos="slide-up" >
+              <div class="card"  style="background-color: rgb(123, 162, 219);">
+                <img src="./Images/Consultation-Services_png.png"  id="develop" alt="">
+            </div>
+          </div>
+            <div class="col-lg-4" data-aos="slide-up">
+              <div class="card" style="background-color:rgb(123, 162, 219);">
+                <img src="./Images/website_png.png"  id="develop" alt="">
+            </div>
+          </div>
+            <div class="col-lg-4"  data-aos="slide-up">
+              <div class="card" style="background-color:rgb(123, 162, 219);">
+                <img src="./Images/Backend_png.png" id="develop" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------Service end----------------------------------------------- -->
+
+<!-- ----------------------------------------Our Clients strat---------------------------- -->
+<section style="background-color: rgb(178 215 234);" class="py-5 mt-5" data-aos="slide-up">
+<div class="container mt-5" data-aos="slide-up">
+    <div class="row">
+        <div class="col-lg-6 border-end" data-aos="slide-up">
+            <h2 class="mt-2">Our Clients </h2>
+            <p>Our clients are at the heart of everything we do, <br> and we strive to exceed  their expectations with <br> every interaction.</p>
+            <button
+            type="button"
+            class="btn btn-danger"
+            style="border-radius: 25px"
+          >
+            Learn More About Shopify Partner's Portal
+          </button>
+        </div>
+        <div class="col-lg-6 mt-5 justify-content-between">
+            <img src="./Images/LOGO1.png" alt="">
+            <img src="./Images/LOGO2.png" alt="">
+            <img src="./Images/LOGO3.png" alt="">
+            <img src="./Images/LOGO5.png" alt="">
+
+
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ----------------------------------------Our Clients end---------------------------- -->
+<!-- ----------------------------------------Testimonals Start---------------------------- -->
+   <h4 class="text-center mt-5" data-aos="slide-up">TESTIMONIALS</h4>
+   <h3 class="text-center" data-aos="slide-up">Why do our customers loves us?</h3>
+
+   <div class="container" data-aos="slide-up">
+    <div class="row justify-content-between" >
+      <div class="col-lg-3 text-center"    style="background-color: rgb(178 215 234)">
+        <h3 class="text-dark mt-5" >MP Tours and Travels</h3>
+         <p>"I needed a change for my new webshop. The idea was quite complicated so everything had to look flawless. They managed to create the same design as my visual concept! I am really happy with the work they did, the communication and attention to detail was flawless ;)! Besides all the good they are also not overpricing any services. 100% would recommend."</p>  <hr>
+      </div>
+
+      <div class="col-lg-3 text-center"  style="background-color:  rgb(178 215 234)">
+        <h3 class="text-dark mt-5">PRP Coconuts</h3>
+         <p>"Having them collaborate with me is a blessing. They are very professional, have good communication, and care about details. I love working with BM. I will continue to work with them and hire them permanently to manage my store."</p>
+         <hr>  
+      </div>
+
+      <div class="col-lg-3 text-center"  style="background-color:  rgb(178 215 234)">
+        <h3 class="text-dark mt-5 ">GT HUB</h3>
+         <p>"They are very professional and patience. They applied every single details to the website according to the brand.Great communication and they have a creative team of experts.Glad to work with them. Highly recommended."</p>  <hr>
+      </div>
+    </div>
+   </div>
+
+<!-- ----------------------------------------Testimonials  end---------------------------- -->
+
+
+<!-- ------------------------------ FAQ QUESTIONS ------------------------------- -->
+    <h3 class="text-center mt-5" data-aos="slide-up">Frequently Asked Questions</h3>
+<div class="container mt-5" data-aos="slide-up">
+  <div class="row justify-content-center" data-aos="slide-up">
+    <div class="col-lg-10">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            How much time will it take to deliver the website?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our timeline for a complete website is about 7-15 working days. This timeline is measured after the client has given all the required data.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How to make the payment?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            We are Shopify experts and our payments are made through Shopify. However, you can also pay through Paypal or wire transfer. We also have other payment methods which are linked to Shopify.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Who will help to import the products from other marketplace?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            We will assist you as needed. The task will be included in the proposal if at all required. There are a few paid apps available on the Shopify apps marketplace and they take a one-time payment to migrate the products with variations to Shopify.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            For how long will you guide us post website delivery?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our timeline for post project assistance is 15 days.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Is multi-currency possible with my theme?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Multi-currency is obtained through applications. We will assist you in researching, integrating and customizing the app.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Can I add payment gateway integration?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Payment gateway integration is done through Shopify settings. We can assist you in this through a screen share call, if needed.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            We offer back end hand hold services that will include aspects like order fulfilment and analytics look up.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            We offer back end services that include aspects like order fulfilment and analytics look up.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- -----------------------------------FAQ QUESTIONS END------------------------- -->
+
+<!-- -----------------------------------meet our team start------------------------- -->
+
+<section data-aos="slide-up">
+  <h5 class="text-center mt-5">MEET OUR TEAM</h5>
+  <P class="text-center">Meet the minds that bring your Shopify vision to life</P>
+
+  <div class="container">
+    <div class="row mt-3">
+
+        <div class="col-lg-4">
+          <center> <img width="200" height="200" src="./Images/pic1.png" style="border-radius: 200px;" alt=""> </center>
+        <div class="text-center">Parvati</div>
+        <div class="text-center">Shopify Customer Success</div>
+      </div>
+       
+    
+    <div class="col-lg-4">
+     <center> <img width="200" height="200" src="./Images/WhatsApp Image 2023-10-22 at 9.40.06 AM.jpeg" style="border-radius: 200px;" alt=""></center>
+      <div class= "text-center">Mranalini</div>
+      <div class="text-center"> Senior Web Developer</div>
+
+
+     </div>
+    
+  <div class="col-lg-4">
+    <center>  <img width="200" height="200" src="./Images/WhatsApp_Image_2023-09-19_at_10.56.27_PM-removebg-preview (1).png" style="border-radius: 200px;" alt=""> </center>
+    <div class="text-center">Bhuvanesan S</div>
+      <div class="text-center">Junior Web Developer</div>
+  </div>
+    
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-5">
+
+      <div class="col-lg-4">
+        <center> <img width="200" height="200" src="./Images/pic1.png" style="border-radius: 200px;" alt=""> </center>
+      <div class="text-center">Payaswini</div>
+      <div class="text-center">Graphic Designer</div>
+    </div>
+     
+  
+  <div class="col-lg-4">
+   <center> <img width="200" height="200" src="./Images/WhatsApp Image 2023-10-22 at 9.40.06 AM.jpeg" style="border-radius: 200px;" alt=""></center>
+    <div class= "text-center">Megha</div>
+    <div class="text-center"> Business Development Executive</div>
+
+
+   </div>
+  
+<div class="col-lg-4">
+  <center>  <img width="200" height="200" src="./Images/WhatsApp_Image_2023-09-19_at_10.56.27_PM-removebg-preview (1).png" style="border-radius: 200px;" alt=""> </center>
+  <div class="text-center">Charumathi U</div>
+    <div class="text-center">Junior Web Developer</div>
+</div>
+  
+
+</div>
+</div>
+
+
+
+<div class="container">
+  <div class="row mt-5">
+
+      <div class="col-lg-4">
+        <center> <img width="200" height="200" src="./Images/pic1.png" style="border-radius: 200px;" alt=""> </center>
+      <div class="text-center">Dinesh</div>
+      <div class="text-center">HR Manager</div>
+    </div>
+     
+  
+  <div class="col-lg-4">
+   <center> <img width="200" height="200" src="./Images/WhatsApp Image 2023-10-22 at 9.40.06 AM.jpeg" style="border-radius: 200px;" alt=""></center>
+    <div class= "text-center">Ajith Kumar O</div>
+    <div class="text-center"> Digital Marketing Executive </div>
+   </div>
+   </div>
+</div>
+
+</section>
+
+
+
+<!-- -----------------------------------meet our team end------------------------- -->
+
+<!-- -----------------------------------What Makes Us Different start------------------------- -->
+
+<section class="mt-5" data-aos="slide-up">
+  <h4 class="text-center">What Makes Us Different</h4>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 mt-5" >
+              <div class="card" style="background-color:  rgb(178 215 234)">
+        <i class="fa-solid fa-arrow-up-right-from-square text-center mt-2" style="color: #d2468a;"></i>
+        <h4 class="text-center">End to end Solution</h4>
+        <p class="text-center">Comprehensive solutions provide streamlined processes and efficient workflows.</p>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-4 mt-5" >
+            <div class="card" style="background-color:  rgb(178 215 234)">
+      <i class="fa-solid fa-handshake text-center mt-2" style="color: #d2468a;"></i>
+      <h4 class="text-center">High Customer Satisfaction</h4>
+      <p class="text-center">Going above and beyond to address customer concerns</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-5" >
+          <div class="card" style="background-color:  rgb(178 215 234)">
+    <i class="fa-solid fa-comment text-center mt-2" style="color: #d2468a;"></i>
+    <h4 class="text-center">End to end Solution</h4>
+    <p class="text-center">Comprehensive solutions provide streamlined processes and efficient workflows.</p>
+        </div>
+      </div>
+        
+    
+    </div>
+  </div>
+</section>
+
+
+
+<!-- -----------------------------------What makes us different end------------------------- -->
+
+
+<!-- -----------------------------------Contact form start------------------------- -->
+
+ <section class="mt-5" data-aos="slide-up">
+  <h4 class="text-center mt-3">Transform Your Online Store with our Shopify Expertise</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mt-5">
+        <img src="./Images/handshake_men_01.jpg" width="450" height="350"   alt="">
+      </div>
+
+      <div class="col-lg-6">
+        <h5 class="mt-5">Contact Us</h5>
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" required>   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+            <input type="email" class="form-control" id="email" value="" aria-describedby="emailHelp" required>   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="number"  required>   
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Country</label>
+            <input type="text" class="form-control" id="country">   
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service Category</label>
+           
+            <select name="option" id="exampleInputEmail1" class="form-select">
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="Shopify Web Development">Shopify Web Development</option>
+              <option value="Grapic Designing">Grapic Designing</option>
+              <option value="Grapic Designing">Advertising Optimization</option>
+              <option value="Grapic Designing">Social Media Marketing</option>
+            </select>  
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Description</label>
+            <textarea type="text" class="form-control" id="message"> </textarea>
+            <!-- <textarea name="Description" id="#" cols="30" rows="10"></textarea>    -->
+          </div>
+
+          <button type="submit" class="btn btn-primary" >Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> 
+<!-- -----------------------------------contact form end------------------------- -->
+
+<!-- -----------------------------------Partnership start------------------------- -->
+
+
+ <section>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-lg-3">
+        <img src="./Images/shopify.png" alt="">
+      </div>
+      <div class="col-lg-3">
+        <img src="./Images/facebook marketing partner.png" alt="">
+      </div>
+      <div class="col-lg-3">
+        <img src="./Images/google partner.png" height="177" width="284" alt="">
+      </div>
+      <div class="col-lg-3">
+        <img src="./Images/AMAZON ADS.png" height="177" width="284" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- -----------------------------------Partner end------------------------- -->
+
+<!-- -----------------------------------Footer start------------------------- -->
+
+<section style="background-color:  rgb(178 215 234)" data-aos="slide-up">
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./Images/download__12_-removebg-preview.png"  height="100" width="100" alt="#"> <br>
+      </div>
+      <div class="col-lg-4 ">
+        <h4 class="mt-5">Follow Us:</h4>
+        <a href="https://www.instagram.com/"><i  class="fa-brands fa-instagram p-2"  style="color: #c73884;"></i></a>
+        <a href="https://www.facebook.com/bhuvanbhuvii.bhuvanbhuvii/"><i class="fa-brands fa-facebook" style="color: #005eff;"></i></a>
+      </div>
+      <div class="col-lg-4">
+        <p class="mt-5 text-center text-dark">B-Block, BHIVE Workspace - No.112, AKR Tech Park, <br> "A" and, 7th Mile Hosur Rd, Krishna Reddy Industrial Area, <br> Bengaluru, Karnataka 560068</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!-- Start Sticky Icon -->
+ <div class="sticky-icon">
+   <a href="https://api.whatsapp.com/send?phone=+91908077754&text=Welcomeakv" target="_blank" class="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp </a>
+
+
+
+
+   <!-- <a href="https://www.facebook.com/" class="Facebook"><i class="fab fa-facebook-f"> </i> Facebook </a> -->
+   <!-- <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"><i class="fab fa-google-plus-g"> </i> Google + </a> -->
+   <!-- <a href="https://www.youtube.com/" class="Youtube"><i class="fab fa-youtube"></i> Youtube </a> -->
+   <!-- <a href="https://twitter.com/login" class="Twitter"><i class="fab fa-twitter"> </i> Twitter </a>    -->
+</div>
+<!-- End Sticky Icon -->
+
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/653b4d9ca84dd54dc485bb93/1hdnqeb2k';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
+<!-- -----------------------------------footer end------------------------- -->
+
+<script src="script.js"></script>
+<script type="text/javascript" src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1200,
+  })
+  </script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+<script>
+function sendEmail() {
+  Email.send({
+
+    // SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+      Host : "smtp.gmail.com",
+      Username : "bhuvanesan@akvtechnologies.com",
+      Password : "Bhuvii@1012",
+      To : "bhuvii1012@gmail.com",
+      From : document.getElementById("email").value,
+      Subject : "Website Enquiry",
+      Body : "Name: " + document.getElementById("name").value +
+            "<br> Email: " + document.getElementById("email").value +
+            "<br> PhoneNumber: " + document.getElementById("number").value +
+            "<br> Country: " + document.getElementById("country").value +
+            "<br> Message: " + document.getElementById("message").value 
+  }).then(
+    message => alert("Message sent successfully")
+  );
+
+}
+</script>
+    
+  </body>
+</html>
